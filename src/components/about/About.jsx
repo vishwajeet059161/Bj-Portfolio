@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css";
+import "./About.css";
 import AboutImg from "../../assets/tech.gif";
 import CV from "../../assets/John-Cv.pdf";
 import Info from "./info";
