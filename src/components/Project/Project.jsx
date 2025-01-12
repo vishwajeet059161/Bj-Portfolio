@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import Amazonimg from "../../assets/AmazonClone.png"
+import Weatherimg from "../../assets/WeatherApp.png"
+import ToDoimg from "../../assets/ToDoApp.png"
+import Newsimg from "../../assets/News Img.jpg"
+
 import "./project.css";
 
 const Project = () => {
@@ -15,7 +20,7 @@ const Project = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-          <img src="../../assets/WheatherApp.png" alt="Amazon Clone" />
+          <img src={Weatherimg} alt="img" />
             <h3 className="services__title">
               Weather App<br></br>
             </h3>
@@ -80,7 +85,7 @@ const Project = () => {
 
         <div className="services__content">
           <div>
-            <img src="../../assets/AmazonClone.png" alt="" />
+            <img src={Amazonimg} alt="" />
             <h3 className="services__title"> Amazon UI Clone</h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
@@ -137,7 +142,7 @@ const Project = () => {
 
         <div className="services__content">
           <div>
-            <img src="../../assets/ToDoApp.png" alt="" />
+            <img src={ToDoimg} alt="" />
             <h3 className="services__title"> To Do App </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
@@ -192,7 +197,7 @@ const Project = () => {
         </div>
         <div className="services__content">
           <div>
-            <img src="../../assets/News Img.jpg" alt="" />
+            <img src={Newsimg} alt="" />
             <h3 className="services__title">
               News App<br></br>
             </h3>
