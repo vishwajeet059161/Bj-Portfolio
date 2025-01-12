@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Amazonpic from "../../"
 import "./project.css";
 
 const Project = () => {
@@ -15,7 +16,7 @@ const Project = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-          <img src="../assets/AmazonClone.png" alt="Amazon Clone" />
+          <img src="../../assets/WheatherApp.png" alt="Amazon Clone" />
             <h3 className="services__title">
               Weather App<br></br>
             </h3>
@@ -80,7 +81,7 @@ const Project = () => {
 
         <div className="services__content">
           <div>
-            <img src="" alt="" />
+            <img src="../../assets/AmazonClone.png" alt="" />
             <h3 className="services__title"> Amazon UI Clone</h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
@@ -137,7 +138,7 @@ const Project = () => {
 
         <div className="services__content">
           <div>
-            <img src="https://media.istockphoto.com/id/1374485813/vector/3d-white-clipboard-task-management-todo-check-list-with-pencil-efficient-work-on-project.jpg?s=612x612&w=0&k=20&c=oHKBMqTKxzZEkm6k-8I7MGfhpft5DVSeT8qzXZNFoPM=" alt="" />
+            <img src="../../assets/ToDoApp.png" alt="" />
             <h3 className="services__title"> To Do App </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
@@ -192,7 +193,7 @@ const Project = () => {
         </div>
         <div className="services__content">
           <div>
-            <img src="src/assets/News Img.jpg" alt="" />
+            <img src="../../assets/News Img.jpg" alt="" />
             <h3 className="services__title">
               News App<br></br>
             </h3>
