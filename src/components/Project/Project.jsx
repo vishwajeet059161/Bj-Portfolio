@@ -15,7 +15,7 @@ const Project = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-          <img src="../src/assets/AmazonClone.png" alt="Amazon Clone" />
+          <img src="../assets/AmazonClone.png" alt="Amazon Clone" />
             <h3 className="services__title">
               Weather App<br></br>
             </h3>
