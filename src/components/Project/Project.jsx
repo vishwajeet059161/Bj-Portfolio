@@ -15,7 +15,7 @@ const Project = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-          <img src="/src/assets/AmazonClone.png" alt="Amazon Clone" />
+          <img src="../src/assets/AmazonClone.png" alt="Amazon Clone" />
             <h3 className="services__title">
               Weather App<br></br>
             </h3>
@@ -137,7 +137,7 @@ const Project = () => {
 
         <div className="services__content">
           <div>
-            <img src="/src/assets/ToDoApp.png" alt="" />
+            <img src="https://media.istockphoto.com/id/1374485813/vector/3d-white-clipboard-task-management-todo-check-list-with-pencil-efficient-work-on-project.jpg?s=612x612&w=0&k=20&c=oHKBMqTKxzZEkm6k-8I7MGfhpft5DVSeT8qzXZNFoPM=" alt="" />
             <h3 className="services__title"> To Do App </h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(3)}>
