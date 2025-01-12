@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Amazonpic from "../../"
 import "./project.css";
 
 const Project = () => {
