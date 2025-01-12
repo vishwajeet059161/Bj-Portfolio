@@ -15,7 +15,7 @@ const Project = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <img src="src/assets/WeatherApp.png" alt="" />
+            <img src="https://9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?quality=82&strip=all&w=1600" alt="" />
             <h3 className="services__title">
               Weather App<br></br>
             </h3>
@@ -80,7 +80,7 @@ const Project = () => {
 
         <div className="services__content">
           <div>
-            <img src="src\assets\AmazonClone.png" alt="" />
+            <img src="" alt="" />
             <h3 className="services__title"> Amazon UI Clone</h3>
           </div>
           <span className="services__button" onClick={() => toggleTab(2)}>
