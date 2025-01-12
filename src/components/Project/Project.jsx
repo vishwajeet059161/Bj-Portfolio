@@ -15,7 +15,7 @@ const Project = () => {
       <div className="services__container container grid">
         <div className="services__content">
           <div>
-            <img src="https://9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?quality=82&strip=all&w=1600" alt="" />
+          <img src="/src/assets/AmazonClone.png" alt="Amazon Clone" />
             <h3 className="services__title">
               Weather App<br></br>
             </h3>
