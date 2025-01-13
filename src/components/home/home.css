@@ -148,7 +148,7 @@ a.button {
   .home__img {
     width: 250px;
     height: 250px;
-    box-shadow: inset 0 0 0 5px rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 5px rgba(8, 8, 8, 0.3);
   }
   svg.home__scroll-mouse {
     margin-left: 7.5rem;
