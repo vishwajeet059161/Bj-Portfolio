@@ -165,7 +165,7 @@ a.button {
     justify-self: initial;
     width: 200px;
     height: 200px;
-    box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 6px rgba(2, 2, 2, 0.3);
   }
   .home__data {
     grid-column: 1/3;
@@ -181,7 +181,7 @@ a.button {
   .home__img {
     width: 150px;
     height: 150px;
-    box-shadow: inset 0 0 0 5px rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 5px rgba(0, 0, 0, 0.3);
   }
   svg.home__hand {
     width: 20px;
