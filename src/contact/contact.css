@@ -65,6 +65,7 @@ h3.contact__title {
 }
 
 .contact__form {
+  display: hidden;
   width: 360px;
 }
 
