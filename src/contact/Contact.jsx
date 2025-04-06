@@ -5,15 +5,15 @@ const Contact = () => {
 
     const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs
-  //     .sendForm('service_utcu1k5', 'template_gc3v6as', form.current, {
-  //       publicKey: 'Pi3aQJJDqiLUW7Rvs',
-  //     })
-  //     e.target.reset()
-  // };
+    emailjs
+      .sendForm('service_utcu1k5', 'template_gc3v6as', form.current, {
+        publicKey: 'Pi3aQJJDqiLUW7Rvs',
+      })
+      e.target.reset()
+  };
 
 
   return (
