@@ -14,9 +14,9 @@ const About = () => {
         <div className="about__data">
           <Info></Info>
           <p className="about__description">
-            "Hi, I'm Biswajit Mahanty. I am currently pursuing a Bachelor's
-            degree in Computer Applications, with a strong passion for web
-            development. I thrive on learning new technologies and enjoy working
+            "Hi, I'm Vishwajeet Kumar. I am currently pursuing a Bachelor's
+            degree in Instrumentation Engineering, with a strong passion for Process and
+            Control. I thrive on learning new technologies and enjoy working
             on innovative projects that challenge my skills.
           </p>
 
