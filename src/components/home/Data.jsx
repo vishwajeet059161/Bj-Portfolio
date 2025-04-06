@@ -4,7 +4,7 @@ const Data = () => {
   return (
     <div className="home__data">
         <h1 className="home__title">
-            Biswajit Mahanty
+           Vishwajeet Kumar
 
             <svg 
                   width="36"
@@ -57,7 +57,7 @@ const Data = () => {
             </svg>
         </h1>
         <h3 className="home__subtitle" style={{fontSize:"1rem"}}>
-            Aspiring Full Stack Developer
+            Aspiring Instrumentation Engineering
         </h3>
         <p className="home__description">
             I'm a Aspiring full stack developer based in India. I have a passion for web development and love to create websites and web applications. 
