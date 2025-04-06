@@ -1,19 +1,19 @@
 import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import "./contact.css"
 const Contact = () => {
 
     const form = useRef();
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
 
-    emailjs
-      .sendForm('service_utcu1k5', 'template_gc3v6as', form.current, {
-        publicKey: 'Pi3aQJJDqiLUW7Rvs',
-      })
-      e.target.reset()
-  };
+  //   emailjs
+  //     .sendForm('service_utcu1k5', 'template_gc3v6as', form.current, {
+  //       publicKey: 'Pi3aQJJDqiLUW7Rvs',
+  //     })
+  //     e.target.reset()
+  // };
 
 
   return (
@@ -30,7 +30,7 @@ const Contact = () => {
                         <i className="bx bx-mail-send contact__card-icon"></i>
 
                         <h3 className="contact__card-title">Email</h3>
-                        <span className="contact__card-data">biswajitmahany7@gmail.com</span>
+                        <span className="contact__card-data">vishwajeetsaw4@gmail.com</span>
 
                         <a href="" className="contact__button">Write me {" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i></a>
                     </div>
