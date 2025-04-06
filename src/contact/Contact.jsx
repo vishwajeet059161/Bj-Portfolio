@@ -55,7 +55,7 @@ const Contact = () => {
                 </div>
             </div>
 
-            <div className="contact__content">
+{/*             <div className="contact__content">
                 <h3 className="contact__title">Share your thought</h3>
 
                 <form ref={form} onSubmit={sendEmail} className="contact__form">
@@ -95,7 +95,7 @@ const Contact = () => {
                     </button>
                 </form>
             </div>
-        </div>
+        </div> */}
         
     </section>
   )
